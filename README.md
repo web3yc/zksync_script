@@ -3,7 +3,7 @@
 ## The strongest zkSync interaction strategy on the entire network (with wool pulling tools and wool pulling scripts attached) let's do it! 
 
 <p align="left">
-<a href="./README.md">简体中文</a> ||   <a href="./README.en.md">English</a>
+<a href="./README.en.md">English</a>
 </p>
 
 ## Script Capabilities
