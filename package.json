@@ -12,11 +12,16 @@
     "zksync-lite-bridge": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/zkSyncLite/mainnet2era.js",
     "zksync-lite-mint-nft": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/zkSyncLite/mintNft.js",
     "create-wallet": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./libs/createWallet.js",
-    "zksync-era-lite-nonce": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/getEraAndLiteNonce.js"
+    "zksync-era-lite-nonce": "node --trace-warnings --no-warnings --experimental-modules --es-module-specifier-resolution=node ./src/getEraAndLiteNonce.js",
+    "deploy": "yarn hardhat deploy-zksync --script deploy.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "hardhat": "^2.14.0",
+    "undici": "^5.22.1",
+    "@matterlabs/hardhat-zksync-deploy": "^0.6.3",
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
     "@sentry/node": "^7.51.0",
     "axios": "^1.3.4",
     "crypto-js": "^4.1.1",
@@ -26,6 +31,6 @@
     "web3": "^1.9.0",
     "web3-utils": "^1.9.0",
     "zksync": "^0.13.1",
-    "zksync-web3js": "0.14.7"
+    "zksync-web3js": "0.14.8"
   }
 }
